@@ -1,0 +1,48 @@
+if l0 == null goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(3), yes
+$stack1 = staticinvoke <java.lang.reflect.Array: int getLength(java.lang.Object)>(l0), yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(4)], yes
+$stack1 = 0, yes
+return $stack1, yes
+$stack1 = staticinvoke <comp5111.assignment.cut.Subject$ArrayTasks: int getLength(java.lang.Object)>(l0), yes
+if $stack1 != 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(9), yes
+$stack2 = 1, yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(10)], yes
+$stack2 = 0, yes
+return $stack2, yes
+$stack1 = staticinvoke <comp5111.assignment.cut.Subject$ArrayTasks: boolean isArrayEmpty(java.lang.Object)>(l0), yes
+return $stack1, yes
+$stack1 = staticinvoke <comp5111.assignment.cut.Subject$ArrayTasks: boolean isArrayEmpty(java.lang.Object)>(l0), yes
+return $stack1, yes
+if l0 == null goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(17), yes
+if l2 >= 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(18), yes
+return -1, yes
+$stack4 = lengthof l0, yes
+if l2 < $stack4 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(22), yes
+$stack14 = lengthof l0, yes
+l2 = $stack14 - 1, yes
+if l1 != null goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(31), yes
+l3 = l2, yes
+if l3 < 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(30), yes
+$stack12 = l0[l3], yes
+if $stack12 != null goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(28), yes
+return l3, no
+l3 = l3 + -1, yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(24)], yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(43)], yes
+$stack5 = virtualinvoke l0.<java.lang.Object: java.lang.Class getClass()>(), yes
+$stack6 = virtualinvoke $stack5.<java.lang.Class: java.lang.Class getComponentType()>(), yes
+$stack7 = virtualinvoke $stack6.<java.lang.Class: boolean isInstance(java.lang.Object)>(l1), yes
+if $stack7 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(43), yes
+l3 = l2, yes
+if l3 < 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(43), yes
+$stack9 = l0[l3], yes
+$stack10 = virtualinvoke l1.<java.lang.Object: boolean equals(java.lang.Object)>($stack9), yes
+if $stack10 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(41), yes
+return l3, yes
+l3 = l3 + -1, yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(36)], yes
+return -1, yes
+
+Number of Statements: 44
+Number of Invoked Statements: 43
+Percentage: 97.72727272727273%

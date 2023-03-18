@@ -5,4 +5,4 @@ Line_Subject$FilenameTasks.txt: 48.9
 Line_Subject$GregorianTasks.txt: 88.5
 Line_Subject$NumberTasks.txt: 42.5
 Line_Subject$StringTasks.txt: 77.6
-Line_Subject.txt: 63.5
+Line_Subject.txt: 63.9

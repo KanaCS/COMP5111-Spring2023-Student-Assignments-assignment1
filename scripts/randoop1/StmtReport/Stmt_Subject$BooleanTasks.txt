@@ -1,0 +1,11 @@
+if l0 != l1 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(2), yes
+return 0, yes
+if l0 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(5), yes
+$stack2 = 1, yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(6)], yes
+$stack2 = -1, yes
+return $stack2, yes
+
+Number of Statements: 7
+Number of Invoked Statements: 7
+Percentage: 100.0%

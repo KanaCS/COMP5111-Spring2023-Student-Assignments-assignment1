@@ -2,7 +2,7 @@ Stmt_Subject$ArrayTasks.txt: 97.7
 Stmt_Subject$BooleanTasks.txt: 100.0
 Stmt_Subject$CharTasks.txt: 90.9
 Stmt_Subject$FilenameTasks.txt: 49.7
-Stmt_Subject$GregorianTasks.txt: 83.3
+Stmt_Subject$GregorianTasks.txt: 81.9
 Stmt_Subject$NumberTasks.txt: 38.1
 Stmt_Subject$StringTasks.txt: 74.0
-Stmt_Subject.txt: 59.5
+Stmt_Subject.txt: 58.2

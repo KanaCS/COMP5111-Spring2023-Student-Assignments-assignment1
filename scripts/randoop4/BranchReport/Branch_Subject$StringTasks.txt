@@ -1,0 +1,156 @@
+if l0 != null goto $stack1 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), yes
+$stack1 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), yes
+if l1 != 0 goto l2 = 0, yes
+l2 = 0, yes
+if l2 >= l1 goto return 1, yes
+return 1, no
+if $stack5 != 0 goto l2 = l2 + 1, yes
+l2 = l2 + 1, no
+if l0 == null goto $stack2 = 1, yes
+$stack2 = 1, yes
+if $stack1 != 0 goto $stack2 = 0, yes
+$stack2 = 0, yes
+if $stack3 == 0 goto l1 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), yes
+l1 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), yes
+if l2 >= l1 goto return 1, yes
+return 1, no
+if $stack6 != 0 goto l2 = l2 + 1, yes
+l2 = l2 + 1, no
+if l0 != null goto l1 = virtualinvoke l0.<java.lang.String: int length()>(), no
+l1 = virtualinvoke l0.<java.lang.String: int length()>(), yes
+if l1 >= 2 goto l2 = l1 - 1, yes
+l2 = l1 - 1, yes
+if l4 != 10 goto return l3, no
+return l3, no
+if $stack9 != 13 goto return l3, no
+return l3, no
+if $stack3 == 0 goto $stack4 = virtualinvoke l0.<java.lang.String: int length()>(), yes
+$stack4 = virtualinvoke l0.<java.lang.String: int length()>(), yes
+if $stack4 != 1 goto $stack5 = virtualinvoke l0.<java.lang.String: int length()>(), yes
+$stack5 = virtualinvoke l0.<java.lang.String: int length()>(), yes
+if l1 == 13 goto return "", yes
+return "", no
+if l1 != 10 goto return l0, no
+return l0, no
+if l2 != 10 goto (branch), no
+if l2 == 13 goto $stack7 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l1#2), yes
+if $stack12 != 13 goto $stack7 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l1#2), no
+$stack7 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l1#2), yes
+if l2 == 13 goto $stack7 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l1#2), yes
+$stack7 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l1#2), yes
+if l0 != null goto $stack9 = virtualinvoke l0.<java.lang.String: boolean isEmpty()>(), no
+$stack9 = virtualinvoke l0.<java.lang.String: boolean isEmpty()>(), yes
+if $stack9 == 0 goto l2 = virtualinvoke l0.<java.lang.String: char[] toCharArray()>(), yes
+l2 = virtualinvoke l0.<java.lang.String: char[] toCharArray()>(), yes
+if l6 >= $stack15 goto $stack16 = new java.lang.String, yes
+$stack16 = new java.lang.String, yes
+if l7 != l5 goto (branch), yes
+if l1 == 0 goto $stack25 = new java.lang.String, yes
+if l1 == 0 goto $stack25 = new java.lang.String, yes
+$stack25 = new java.lang.String, yes
+if l7 != 2 goto $stack25 = new java.lang.String, yes
+$stack25 = new java.lang.String, yes
+if l5 != 1 goto $stack25 = new java.lang.String, no
+$stack25 = new java.lang.String, yes
+if l8 == l4 goto (branch), no
+goto [?= l5 = l7], no
+if $stack9 != 0 goto return 0, yes
+return 0, no
+if $stack10 == 0 goto l2 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), yes
+l2 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), yes
+if l6 >= l2 goto return 0, yes
+return 0, no
+if l8 >= l3 goto l6 = l6 + 1, yes
+l6 = l6 + 1, yes
+if $stack15 != l7 goto l8 = l8 + 1, no
+l8 = l8 + 1, yes
+if $stack18 != 0 goto (branch), no
+if l8 != l5 goto (branch), no
+if l8 != l5 goto (branch), no
+if l6 >= l4 goto l8 = l8 + 1, no
+if l6 >= l4 goto l8 = l8 + 1, no
+l8 = l8 + 1, yes
+if $stack21 != $stack22 goto l8 = l8 + 1, no
+l8 = l8 + 1, yes
+if l0 == null goto return 1, yes
+return 1, no
+if l1 != null goto l2 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), yes
+l2 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), yes
+if l6 >= l2 goto return 1, yes
+return 1, no
+if l8 >= l4 goto l6 = l6 + 1, yes
+l6 = l6 + 1, yes
+if $stack13 != l7 goto l8 = l8 + 1, no
+l8 = l8 + 1, yes
+if $stack16 != 0 goto (branch), no
+if l8 != l5 goto (branch), no
+if l8 != l5 goto (branch), no
+if l6 >= l3 goto l8 = l8 + 1, no
+if l6 >= l3 goto l8 = l8 + 1, no
+l8 = l8 + 1, yes
+if $stack19 != $stack20 goto l8 = l8 + 1, no
+l8 = l8 + 1, yes
+if l0 != l1 goto (branch), yes
+if l0 == null goto return 0, yes
+if l0 == null goto return 0, yes
+return 0, no
+if l1 != null goto $stack4 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), yes
+$stack4 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), yes
+if $stack4 == $stack5 goto $stack6 = l0 instanceof java.lang.String, yes
+$stack6 = l0 instanceof java.lang.String, no
+if $stack6 == 0 goto l2 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), no
+l2 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), no
+if $stack12 == 0 goto l2 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), no
+l2 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), no
+if l3 >= l2 goto return 1, no
+return 1, no
+if $stack8 == $stack9 goto l3 = l3 + 1, no
+l3 = l3 + 1, no
+if l2 != 0 goto (branch), yes
+if l1 != null goto $stack4 = virtualinvoke l1.<java.lang.String: boolean isEmpty()>(), no
+if l1 != null goto $stack4 = virtualinvoke l1.<java.lang.String: boolean isEmpty()>(), no
+$stack4 = virtualinvoke l1.<java.lang.String: boolean isEmpty()>(), yes
+if l2 == 0 goto $stack5 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l2), no
+$stack5 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l2), yes
+if $stack15 == 0 goto $stack5 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l2), no
+$stack5 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l2), yes
+if $stack4 == 0 goto (branch), yes
+if l2 == 0 goto $stack5 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l2), yes
+if l2 == 0 goto $stack5 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l2), yes
+$stack5 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l2), yes
+if $stack8 == -1 goto $stack5 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l2), yes
+$stack5 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l2), yes
+if $stack5 != 0 goto return 0, yes
+return 0, no
+if $stack6 != 1 goto l1 = 0, yes
+l1 = 0, yes
+if l4 >= l3 goto (branch), yes
+if l1 == 0 goto $stack8 = 0, no
+if l1 == 0 goto $stack9 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l4), no
+$stack9 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l4), yes
+if l2 == 0 goto $stack9 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l4), no
+$stack9 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l4), yes
+if $stack10 == 0 goto $stack11 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l4), no
+$stack11 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l4), yes
+if $stack12 == 0 goto l4 = l4 + 1, yes
+l4 = l4 + 1, yes
+if l1 == 0 goto $stack8 = 0, no
+$stack8 = 0, yes
+if l2 == 0 goto $stack8 = 0, no
+$stack8 = 0, yes
+if l0 == null goto return l0, yes
+return l0, no
+if l1 == null goto return l0, yes
+return l0, no
+if l2 != null goto l3 = virtualinvoke l0.<java.lang.String: int indexOf(java.lang.String)>(l1), no
+l3 = virtualinvoke l0.<java.lang.String: int indexOf(java.lang.String)>(l1), yes
+if l3 >= 0 goto l4 = virtualinvoke l0.<java.lang.String: int length()>(), yes
+l4 = virtualinvoke l0.<java.lang.String: int length()>(), yes
+if l4 != $stack11 goto (branch), yes
+if l6 != l4 goto $stack12 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l3), yes
+if l6 != l4 goto $stack12 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l3), yes
+$stack12 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l3), yes
+
+Number of Branches: 152
+Number of Invoked Branches: 92
+Percentage: 60.526315789473685%

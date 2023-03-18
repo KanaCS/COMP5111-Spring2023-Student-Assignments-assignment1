@@ -1,0 +1,297 @@
+if l0 != null goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(3), yes
+$stack1 = 0, yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(4)], yes
+$stack1 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), yes
+return $stack1, yes
+l1 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: int length(java.lang.CharSequence)>(l0), yes
+if l1 != 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(8), yes
+return 1, yes
+l2 = 0, yes
+if l2 >= l1 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(16), yes
+$stack4 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l2), yes
+$stack5 = staticinvoke <java.lang.Character: boolean isWhitespace(char)>($stack4), yes
+if $stack5 != 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(14), yes
+return 0, yes
+l2 = l2 + 1, no
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(9)], no
+return 1, no
+if l0 == null goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(20), yes
+$stack1 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), yes
+if $stack1 != 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(22), yes
+$stack2 = 1, yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(23)], yes
+$stack2 = 0, yes
+return $stack2, yes
+$stack3 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isEmpty(java.lang.CharSequence)>(l0), yes
+if $stack3 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(27), yes
+return 0, yes
+l1 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), yes
+l2 = 1, yes
+if l2 >= l1 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(36), yes
+$stack5 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l2), yes
+$stack6 = staticinvoke <java.lang.Character: boolean isDigit(char)>($stack5), yes
+if $stack6 != 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(34), yes
+return 0, yes
+l2 = l2 + 1, no
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(29)], no
+return 1, yes
+if l0 != null goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(39), yes
+return null, no
+l1 = virtualinvoke l0.<java.lang.String: int length()>(), yes
+if l1 >= 2 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(42), yes
+return "", yes
+l2 = l1 - 1, yes
+l3 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l2), yes
+l4 = virtualinvoke l0.<java.lang.String: char charAt(int)>(l2), yes
+if l4 != 10 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(52), yes
+$stack8 = l2 - 1, no
+$stack9 = virtualinvoke l3.<java.lang.String: char charAt(int)>($stack8), no
+if $stack9 != 13 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(52), no
+$stack11 = l2 - 1, no
+$stack12 = virtualinvoke l3.<java.lang.String: java.lang.String substring(int,int)>(0, $stack11), no
+return $stack12, no
+return l3, yes
+$stack3 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isEmpty(java.lang.CharSequence)>(l0), yes
+if $stack3 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(56), yes
+return l0, yes
+$stack4 = virtualinvoke l0.<java.lang.String: int length()>(), yes
+if $stack4 != 1 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(63), yes
+l1 = virtualinvoke l0.<java.lang.String: char charAt(int)>(0), yes
+if l1 == 13 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(61), yes
+if l1 != 10 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(62), yes
+return "", no
+return l0, yes
+$stack5 = virtualinvoke l0.<java.lang.String: int length()>(), yes
+l1#2 = $stack5 - 1, yes
+l2 = virtualinvoke l0.<java.lang.String: char charAt(int)>(l1#2), yes
+if l2 != 10 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(72), yes
+$stack11 = l1#2 - 1, no
+$stack12 = virtualinvoke l0.<java.lang.String: char charAt(int)>($stack11), no
+if $stack12 != 13 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(74), no
+l1#2 = l1#2 + -1, no
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(74)], no
+if l2 == 13 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(74), yes
+l1#2 = l1#2 + 1, yes
+$stack7 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l1#2), yes
+return $stack7, yes
+$stack1 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: java.lang.String[] splitByCharacterType(java.lang.String,boolean)>(l0, 0), yes
+return $stack1, yes
+if l0 != null goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(80), yes
+return null, no
+$stack9 = virtualinvoke l0.<java.lang.String: boolean isEmpty()>(), yes
+if $stack9 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(84), yes
+$stack41 = <comp5111.assignment.cut.Subject$ArrayTasks: java.lang.String[] EMPTY_STRING_ARRAY>, yes
+return $stack41, yes
+l2 = virtualinvoke l0.<java.lang.String: char[] toCharArray()>(), yes
+$stack11 = new java.util.ArrayList, yes
+specialinvoke $stack11.<java.util.ArrayList: void <init>()>(), yes
+l4 = 0, yes
+$stack12 = l2[0], yes
+l5 = staticinvoke <java.lang.Character: int getType(char)>($stack12), yes
+l6 = 0 + 1, yes
+$stack14 = lengthof l2, yes
+$stack15 = $stack14 - 1, yes
+if l6 >= $stack15 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(117), yes
+$stack23 = l2[l6], yes
+l7 = staticinvoke <java.lang.Character: int getType(char)>($stack23), yes
+if l7 != l5 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(98), yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(115)], yes
+if l1 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(109), yes
+if l7 != 2 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(109), yes
+if l5 != 1 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(109), yes
+l8 = l6 - 1, no
+if l8 == l4 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(108), no
+$stack38 = new java.lang.String, no
+$stack39 = l8 - l4, no
+specialinvoke $stack38.<java.lang.String: void <init>(char[],int,int)>(l2, l4, $stack39), no
+interfaceinvoke $stack11.<java.util.List: boolean add(java.lang.Object)>($stack38), no
+l4 = l8, no
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(114)], no
+$stack25 = new java.lang.String, yes
+$stack26 = l6 - l4, yes
+specialinvoke $stack25.<java.lang.String: void <init>(char[],int,int)>(l2, l4, $stack26), yes
+interfaceinvoke $stack11.<java.util.List: boolean add(java.lang.Object)>($stack25), yes
+l4 = l6, yes
+l5 = l7, yes
+l6 = l6 + 1, yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(91)], yes
+$stack16 = new java.lang.String, yes
+$stack17 = lengthof l2, yes
+$stack18 = $stack17 - l4, yes
+specialinvoke $stack16.<java.lang.String: void <init>(char[],int,int)>(l2, l4, $stack18), yes
+interfaceinvoke $stack11.<java.util.List: boolean add(java.lang.Object)>($stack16), yes
+$stack20 = <comp5111.assignment.cut.Subject$ArrayTasks: java.lang.String[] EMPTY_STRING_ARRAY>, yes
+$stack21 = interfaceinvoke $stack11.<java.util.List: java.lang.Object[] toArray(java.lang.Object[])>($stack20), yes
+$stack22 = (java.lang.String[]) $stack21, yes
+return $stack22, yes
+$stack9 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isEmpty(java.lang.CharSequence)>(l0), yes
+if $stack9 != 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(130), yes
+$stack10 = staticinvoke <comp5111.assignment.cut.Subject$ArrayTasks: boolean isEmpty(char[])>(l1), yes
+if $stack10 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(131), yes
+return 0, yes
+l2 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), yes
+l3 = lengthof l1, yes
+l4 = l2 - 1, yes
+l5 = l3 - 1, yes
+l6 = 0, yes
+if l6 >= l2 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(158), yes
+l7 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l6), yes
+l8 = 0, yes
+if l8 >= l3 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(156), yes
+$stack15 = l1[l8], yes
+if $stack15 != l7 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(154), yes
+$stack18 = staticinvoke <java.lang.Character: boolean isHighSurrogate(char)>(l7), no
+if $stack18 != 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(145), no
+return 1, no
+if l8 != l5 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(147), no
+return 1, no
+if l6 >= l4 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(154), no
+$stack19 = l8 + 1, no
+$stack21 = l1[$stack19], no
+$stack20 = l6 + 1, no
+$stack22 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>($stack20), no
+if $stack21 != $stack22 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(154), no
+return 1, no
+l8 = l8 + 1, yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(139)], yes
+l6 = l6 + 1, yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(136)], yes
+return 0, yes
+if l0 == null goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(161), yes
+if l1 != null goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(162), yes
+return 1, yes
+l2 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), yes
+l3 = l2 - 1, yes
+l4 = lengthof l1, yes
+l5 = l4 - 1, yes
+l6 = 0, yes
+if l6 >= l2 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(189), yes
+l7 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l6), yes
+l8 = 0, yes
+if l8 >= l4 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(187), yes
+$stack13 = l1[l8], yes
+if $stack13 != l7 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(185), yes
+$stack16 = staticinvoke <java.lang.Character: boolean isHighSurrogate(char)>(l7), no
+if $stack16 != 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(176), no
+return 0, no
+if l8 != l5 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(178), no
+return 0, no
+if l6 >= l3 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(185), no
+$stack17 = l8 + 1, no
+$stack19 = l1[$stack17], no
+$stack18 = l6 + 1, no
+$stack20 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>($stack18), no
+if $stack19 != $stack20 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(185), no
+return 0, no
+l8 = l8 + 1, yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(170)], yes
+l6 = l6 + 1, yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(167)], yes
+return 1, yes
+$stack1 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: java.lang.String[] splitByCharacterType(java.lang.String,boolean)>(l0, 1), yes
+return $stack1, yes
+if l0 != l1 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(194), yes
+return 1, yes
+if l0 == null goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(196), yes
+if l1 != null goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(197), yes
+return 0, yes
+$stack4 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), yes
+$stack5 = interfaceinvoke l1.<java.lang.CharSequence: int length()>(), yes
+if $stack4 == $stack5 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(201), yes
+return 0, yes
+$stack6 = l0 instanceof java.lang.String, yes
+if $stack6 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(207), yes
+$stack12 = l1 instanceof java.lang.String, yes
+if $stack12 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(207), yes
+$stack15 = virtualinvoke l0.<java.lang.Object: boolean equals(java.lang.Object)>(l1), yes
+return $stack15, yes
+l2 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), no
+l3 = 0, no
+if l3 >= l2 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(216), no
+$stack8 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l3), no
+$stack9 = interfaceinvoke l1.<java.lang.CharSequence: char charAt(int)>(l3), no
+if $stack8 == $stack9 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(214), no
+return 0, no
+l3 = l3 + 1, no
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(209)], no
+return 1, no
+l2 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: int length(java.lang.CharSequence)>(l0), yes
+if l2 != 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(220), yes
+return l0, yes
+if l1 != null goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(228), yes
+if l2 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(238), no
+$stack13 = l2 - 1, no
+$stack14 = virtualinvoke l0.<java.lang.String: char charAt(int)>($stack13), no
+$stack15 = staticinvoke <java.lang.Character: boolean isWhitespace(char)>($stack14), no
+if $stack15 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(238), no
+l2 = l2 + -1, no
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(221)], no
+$stack4 = virtualinvoke l1.<java.lang.String: boolean isEmpty()>(), yes
+if $stack4 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(231), yes
+return l0, yes
+if l2 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(238), yes
+$stack6 = l2 - 1, yes
+$stack7 = virtualinvoke l0.<java.lang.String: char charAt(int)>($stack6), yes
+$stack8 = virtualinvoke l1.<java.lang.String: int indexOf(int)>($stack7), yes
+if $stack8 == -1 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(238), yes
+l2 = l2 + -1, yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(231)], yes
+$stack5 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l2), yes
+return $stack5, yes
+$stack5 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: boolean isEmpty(java.lang.CharSequence)>(l0), yes
+if $stack5 != 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(244), yes
+$stack6 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), yes
+if $stack6 != 1 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(245), yes
+return 0, yes
+l1 = 0, yes
+l2 = 0, yes
+l3 = interfaceinvoke l0.<java.lang.CharSequence: int length()>(), yes
+l4 = 0, yes
+if l4 >= l3 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(264), yes
+if l1 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(253), yes
+if l2 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(253), no
+return 1, no
+$stack9 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l4), yes
+$stack10 = staticinvoke <java.lang.Character: boolean isUpperCase(char)>($stack9), yes
+if $stack10 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(258), yes
+l1 = 1, no
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(262)], no
+$stack11 = interfaceinvoke l0.<java.lang.CharSequence: char charAt(int)>(l4), yes
+$stack12 = staticinvoke <java.lang.Character: boolean isLowerCase(char)>($stack11), yes
+if $stack12 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(262), yes
+l2 = 1, yes
+l4 = l4 + 1, yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(249)], yes
+if l1 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(268), yes
+if l2 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(268), no
+$stack8 = 1, no
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(269)], no
+$stack8 = 0, yes
+return $stack8, yes
+if l0 == null goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(273), yes
+if l1 == null goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(273), yes
+if l2 != null goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(274), yes
+return l0, no
+l3 = virtualinvoke l0.<java.lang.String: int indexOf(java.lang.String)>(l1), yes
+if l3 >= 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(277), yes
+return l0, yes
+l4 = virtualinvoke l0.<java.lang.String: int length()>(), yes
+$stack10 = virtualinvoke l1.<java.lang.String: int length()>(), yes
+l6 = l3 + $stack10, yes
+$stack11 = virtualinvoke l1.<java.lang.String: int length()>(), yes
+if l4 != $stack11 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(284), yes
+l0#4 = l2, yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(292)], yes
+if l6 != l4 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(288), yes
+$stack16 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l3), yes
+l0#4 = dynamicinvoke "makeConcatWithConstants" <java.lang.String (java.lang.String,java.lang.String)>($stack16, l2) <java.lang.invoke.StringConcatFactory: java.lang.invoke.CallSite makeConcatWithConstants(java.lang.invoke.MethodHandles$Lookup,java.lang.String,java.lang.invoke.MethodType,java.lang.String,java.lang.Object[])>("\u0001\u0001"), yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(292)], yes
+$stack12 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int,int)>(0, l3), yes
+$stack13 = virtualinvoke l0.<java.lang.String: java.lang.String substring(int)>(l6), yes
+$stack14 = staticinvoke <comp5111.assignment.cut.Subject$StringTasks: java.lang.String replace(java.lang.String,java.lang.String,java.lang.String)>($stack13, l1, l2), yes
+l0#4 = dynamicinvoke "makeConcatWithConstants" <java.lang.String (java.lang.String,java.lang.String,java.lang.String)>($stack12, l2, $stack14) <java.lang.invoke.StringConcatFactory: java.lang.invoke.CallSite makeConcatWithConstants(java.lang.invoke.MethodHandles$Lookup,java.lang.String,java.lang.invoke.MethodType,java.lang.String,java.lang.Object[])>("\u0001\u0001\u0001"), yes
+return l0#4, yes
+
+Number of Statements: 293
+Number of Invoked Statements: 217
+Percentage: 74.06143344709898%

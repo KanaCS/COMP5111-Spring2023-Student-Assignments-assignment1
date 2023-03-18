@@ -1,0 +1,8 @@
+if l0 != l1 goto (branch), yes
+if l0 == 0 goto $stack2 = -1, yes
+if l0 == 0 goto $stack2 = -1, yes
+$stack2 = -1, yes
+
+Number of Branches: 4
+Number of Invoked Branches: 4
+Percentage: 100.0%

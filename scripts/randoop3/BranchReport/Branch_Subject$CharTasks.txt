@@ -1,0 +1,28 @@
+if l0 == null goto $stack2 = l1, yes
+$stack2 = l1, no
+if l0 >= 128 goto $stack1 = 0, yes
+$stack1 = 0, no
+if l0 < 32 goto $stack1 = 0, yes
+$stack1 = 0, yes
+if l0 >= 127 goto $stack1 = 0, yes
+$stack1 = 0, yes
+if l0 < 32 goto $stack1 = 1, yes
+$stack1 = 1, yes
+if l0 != 127 goto $stack1 = 0, no
+$stack1 = 0, yes
+if $stack1 != 0 goto $stack3 = 1, yes
+$stack3 = 1, yes
+if $stack2 == 0 goto $stack3 = 0, yes
+$stack3 = 0, yes
+if l0 < 65 goto $stack1 = 0, yes
+$stack1 = 0, yes
+if l0 > 90 goto $stack1 = 0, no
+$stack1 = 0, yes
+if l0 < 97 goto $stack1 = 0, yes
+$stack1 = 0, yes
+if l0 > 122 goto $stack1 = 0, yes
+$stack1 = 0, yes
+
+Number of Branches: 24
+Number of Invoked Branches: 20
+Percentage: 83.33333333333333%

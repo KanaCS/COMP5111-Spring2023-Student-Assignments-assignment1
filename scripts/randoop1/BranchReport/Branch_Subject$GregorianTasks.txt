@@ -1,0 +1,98 @@
+if l0 <= 1900 goto $stack1 = l0 & 3, yes
+$stack1 = l0 & 3, yes
+if l0 >= 2100 goto $stack1 = l0 & 3, no
+$stack1 = l0 & 3, yes
+if $stack7 != 0 goto $stack8 = 0, no
+$stack8 = 0, no
+if $stack1 == 0 goto $stack4 = 1, yes
+$stack4 = 1, yes
+if $stack2 != 0 goto $stack4 = 1, no
+$stack4 = 1, yes
+if $stack3 != 0 goto $stack4 = 0, no
+$stack4 = 0, no
+if l1 == 1 goto return 31, yes
+return 31, no
+if l1 == 3 goto return 31, yes
+return 31, no
+if l1 == 5 goto return 31, yes
+return 31, no
+if l1 == 7 goto return 31, yes
+return 31, no
+if l1 == 8 goto return 31, yes
+return 31, no
+if l1 == 10 goto return 31, yes
+return 31, no
+if l1 != 12 goto (branch), yes
+if l1 == 4 goto return 30, yes
+if l1 == 4 goto return 30, yes
+return 30, no
+if l1 == 6 goto return 30, yes
+return 30, no
+if l1 == 9 goto return 30, yes
+return 30, no
+if l1 != 11 goto (branch), yes
+if l1 != 2 goto $stack4 = new java.lang.IllegalArgumentException, yes
+if l1 != 2 goto $stack4 = new java.lang.IllegalArgumentException, yes
+$stack4 = new java.lang.IllegalArgumentException, yes
+if $stack6 == 0 goto $stack7 = 28, yes
+$stack7 = 28, no
+if l0 < -999999999 goto $stack3 = new java.lang.IllegalArgumentException, yes
+$stack3 = new java.lang.IllegalArgumentException, no
+if l0 <= 999999999 goto (branch), no
+if l1 < 1 goto $stack5 = new java.lang.IllegalArgumentException, yes
+if l1 < 1 goto $stack5 = new java.lang.IllegalArgumentException, yes
+$stack5 = new java.lang.IllegalArgumentException, yes
+if l1 <= 12 goto (branch), yes
+if l2 < 1 goto $stack7 = new java.lang.IllegalArgumentException, yes
+if l2 < 1 goto $stack7 = new java.lang.IllegalArgumentException, yes
+$stack7 = new java.lang.IllegalArgumentException, yes
+if l2 <= 31 goto $stack9 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: int getLengthOfMonth(int,int)>(l0, l1), yes
+$stack9 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: int getLengthOfMonth(int,int)>(l0, l1), yes
+if l2 <= $stack9 goto return, no
+return, no
+if l2 < 1 goto $stack8 = new java.lang.IllegalArgumentException, yes
+$stack8 = new java.lang.IllegalArgumentException, yes
+if l2 <= 31 goto $stack10 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: int getLengthOfMonth(int,int)>(l0, l1), yes
+$stack10 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: int getLengthOfMonth(int,int)>(l0, l1), yes
+if l2 <= $stack10 goto l3 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: int gaussianWeekTerm(int)>(l1), yes
+l3 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: int gaussianWeekTerm(int)>(l1), yes
+if l4 >= 0 goto (branch), yes
+if l1 > 2 goto l6 = staticinvoke <java.lang.Math: int floorDiv(int,int)>(l5, 4), yes
+if l1 > 2 goto l6 = staticinvoke <java.lang.Math: int floorDiv(int,int)>(l5, 4), yes
+l6 = staticinvoke <java.lang.Math: int floorDiv(int,int)>(l5, 4), yes
+if l4 >= 0 goto l6 = staticinvoke <java.lang.Math: int floorDiv(int,int)>(l5, 4), yes
+l6 = staticinvoke <java.lang.Math: int floorDiv(int,int)>(l5, 4), yes
+if l7 > 0 goto return l7, yes
+return l7, no
+if l1 >= 10 goto virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(l1), no
+virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(l1), yes
+if l2 >= 10 goto virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(l2), no
+virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(l2), yes
+if l0 != 1 goto (branch), yes
+if l0 != 2 goto (branch), yes
+if l0 != 2 goto (branch), yes
+if l0 != 3 goto (branch), yes
+if l0 != 3 goto (branch), yes
+if l0 != 4 goto (branch), yes
+if l0 != 4 goto (branch), yes
+if l0 != 5 goto (branch), yes
+if l0 != 5 goto (branch), yes
+if l0 != 6 goto (branch), yes
+if l0 != 6 goto (branch), yes
+if l0 != 7 goto (branch), yes
+if l0 != 7 goto (branch), yes
+if l0 != 8 goto (branch), yes
+if l0 != 8 goto (branch), yes
+if l0 != 9 goto (branch), yes
+if l0 != 9 goto (branch), yes
+if l0 != 10 goto (branch), yes
+if l0 != 10 goto (branch), yes
+if l0 != 11 goto (branch), no
+if l0 != 11 goto (branch), no
+if l0 != 12 goto $stack1 = new java.lang.IllegalArgumentException, yes
+if l0 != 12 goto $stack1 = new java.lang.IllegalArgumentException, yes
+$stack1 = new java.lang.IllegalArgumentException, no
+
+Number of Branches: 94
+Number of Invoked Branches: 68
+Percentage: 72.34042553191489%
