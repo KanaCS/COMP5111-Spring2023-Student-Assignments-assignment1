@@ -1,0 +1,48 @@
+if l0 == null goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(3), yes
+$stack2 = virtualinvoke l0.<java.lang.Character: char charValue()>(), yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(4)], yes
+$stack2 = l1, no
+return $stack2, yes
+if l0 >= 128 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(8), yes
+$stack1 = 1, yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(9)], yes
+$stack1 = 0, no
+return $stack1, yes
+if l0 < 32 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(14), yes
+if l0 >= 127 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(14), yes
+$stack1 = 1, yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(15)], yes
+$stack1 = 0, yes
+return $stack1, yes
+if l0 < 32 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(18), yes
+if l0 != 127 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(20), yes
+$stack1 = 1, yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(21)], yes
+$stack1 = 0, yes
+return $stack1, yes
+$stack1 = staticinvoke <comp5111.assignment.cut.Subject$CharTasks: boolean isAsciiAlphaUpper(char)>(l0), yes
+if $stack1 != 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(26), yes
+$stack2 = staticinvoke <comp5111.assignment.cut.Subject$CharTasks: boolean isAsciiAlphaLower(char)>(l0), yes
+if $stack2 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(28), yes
+$stack3 = 1, yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(29)], yes
+$stack3 = 0, yes
+return $stack3, yes
+if l0 < 65 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(34), yes
+if l0 > 90 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(34), yes
+$stack1 = 1, no
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(35)], no
+$stack1 = 0, yes
+return $stack1, yes
+if l0 < 97 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(40), yes
+if l0 > 122 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(40), yes
+$stack1 = 1, yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(41)], yes
+$stack1 = 0, yes
+return $stack1, yes
+$stack2 = l0 - l1, yes
+return $stack2, yes
+
+Number of Statements: 44
+Number of Invoked Statements: 40
+Percentage: 90.9090909090909%

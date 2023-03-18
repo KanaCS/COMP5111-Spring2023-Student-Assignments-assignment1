@@ -1,0 +1,148 @@
+if l0 <= 1900 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(8), yes
+if l0 >= 2100 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(8), yes
+$stack7 = l0 & 3, no
+if $stack7 != 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(6), no
+$stack8 = 1, no
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(7)], no
+$stack8 = 0, no
+return $stack8, no
+$stack1 = l0 & 3, yes
+if $stack1 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(14), yes
+$stack2 = l0 % 100, yes
+if $stack2 != 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(14), yes
+$stack3 = l0 % 400, no
+if $stack3 != 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(16), no
+$stack4 = 1, yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(17)], yes
+$stack4 = 0, no
+return $stack4, yes
+if l1 == 1 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(25), yes
+if l1 == 3 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(25), yes
+if l1 == 5 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(25), yes
+if l1 == 7 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(25), yes
+if l1 == 8 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(25), yes
+if l1 == 10 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(25), yes
+if l1 != 12 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(26), yes
+return 31, yes
+if l1 == 4 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(30), yes
+if l1 == 6 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(30), yes
+if l1 == 9 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(30), yes
+if l1 != 11 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(31), yes
+return 30, yes
+if l1 != 2 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(38), yes
+$stack6 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: boolean isLeapYear(int)>(l0), yes
+if $stack6 == 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(36), yes
+$stack7 = 29, yes
+goto [?= staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(37)], yes
+$stack7 = 28, no
+return $stack7, yes
+$stack4 = new java.lang.IllegalArgumentException, yes
+$stack5 = dynamicinvoke "makeConcatWithConstants" <java.lang.String (int)>(l1) <java.lang.invoke.StringConcatFactory: java.lang.invoke.CallSite makeConcatWithConstants(java.lang.invoke.MethodHandles$Lookup,java.lang.String,java.lang.invoke.MethodType,java.lang.String,java.lang.Object[])>("Invalid month: \u0001"), yes
+specialinvoke $stack4.<java.lang.IllegalArgumentException: void <init>(java.lang.String)>($stack5), yes
+throw $stack4, yes
+if l0 < -999999999 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(44), yes
+if l0 <= 999999999 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(48), yes
+$stack3 = new java.lang.IllegalArgumentException, no
+$stack4 = dynamicinvoke "makeConcatWithConstants" <java.lang.String (int)>(l0) <java.lang.invoke.StringConcatFactory: java.lang.invoke.CallSite makeConcatWithConstants(java.lang.invoke.MethodHandles$Lookup,java.lang.String,java.lang.invoke.MethodType,java.lang.String,java.lang.Object[])>("YEAR out of range: \u0001"), no
+specialinvoke $stack3.<java.lang.IllegalArgumentException: void <init>(java.lang.String)>($stack4), no
+throw $stack3, no
+if l1 < 1 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(50), yes
+if l1 <= 12 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(54), yes
+$stack5 = new java.lang.IllegalArgumentException, yes
+$stack6 = dynamicinvoke "makeConcatWithConstants" <java.lang.String (int)>(l1) <java.lang.invoke.StringConcatFactory: java.lang.invoke.CallSite makeConcatWithConstants(java.lang.invoke.MethodHandles$Lookup,java.lang.String,java.lang.invoke.MethodType,java.lang.String,java.lang.Object[])>("MONTH out of range: \u0001"), yes
+specialinvoke $stack5.<java.lang.IllegalArgumentException: void <init>(java.lang.String)>($stack6), yes
+throw $stack5, yes
+if l2 < 1 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(56), yes
+if l2 <= 31 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(60), yes
+$stack7 = new java.lang.IllegalArgumentException, yes
+$stack8 = dynamicinvoke "makeConcatWithConstants" <java.lang.String (int)>(l2) <java.lang.invoke.StringConcatFactory: java.lang.invoke.CallSite makeConcatWithConstants(java.lang.invoke.MethodHandles$Lookup,java.lang.String,java.lang.invoke.MethodType,java.lang.String,java.lang.Object[])>("DAY_OF_MONTH out of range: \u0001"), yes
+specialinvoke $stack7.<java.lang.IllegalArgumentException: void <init>(java.lang.String)>($stack8), yes
+throw $stack7, yes
+$stack9 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: int getLengthOfMonth(int,int)>(l0, l1), yes
+if l2 <= $stack9 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(67), yes
+$stack10 = new java.lang.IllegalArgumentException, yes
+$stack11 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: java.lang.String toString(int,int,int)>(l0, l1, l2), yes
+$stack12 = dynamicinvoke "makeConcatWithConstants" <java.lang.String (java.lang.String)>($stack11) <java.lang.invoke.StringConcatFactory: java.lang.invoke.CallSite makeConcatWithConstants(java.lang.invoke.MethodHandles$Lookup,java.lang.String,java.lang.invoke.MethodType,java.lang.String,java.lang.Object[])>("DAY_OF_MONTH exceeds month length in given year: \u0001"), yes
+specialinvoke $stack10.<java.lang.IllegalArgumentException: void <init>(java.lang.String)>($stack12), yes
+throw $stack10, yes
+return, yes
+if l2 < 1 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(70), yes
+if l2 <= 31 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(74), yes
+$stack8 = new java.lang.IllegalArgumentException, yes
+$stack9 = dynamicinvoke "makeConcatWithConstants" <java.lang.String (int)>(l2) <java.lang.invoke.StringConcatFactory: java.lang.invoke.CallSite makeConcatWithConstants(java.lang.invoke.MethodHandles$Lookup,java.lang.String,java.lang.invoke.MethodType,java.lang.String,java.lang.Object[])>("Day out of range: \u0001"), yes
+specialinvoke $stack8.<java.lang.IllegalArgumentException: void <init>(java.lang.String)>($stack9), yes
+throw $stack8, yes
+$stack10 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: int getLengthOfMonth(int,int)>(l0, l1), yes
+if l2 <= $stack10 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(81), yes
+$stack37 = new java.lang.IllegalArgumentException, yes
+$stack38 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: java.lang.String toString(int,int,int)>(l0, l1, l2), yes
+$stack39 = dynamicinvoke "makeConcatWithConstants" <java.lang.String (java.lang.String)>($stack38) <java.lang.invoke.StringConcatFactory: java.lang.invoke.CallSite makeConcatWithConstants(java.lang.invoke.MethodHandles$Lookup,java.lang.String,java.lang.invoke.MethodType,java.lang.String,java.lang.Object[])>("Day exceeds month length: \u0001"), yes
+specialinvoke $stack37.<java.lang.IllegalArgumentException: void <init>(java.lang.String)>($stack39), yes
+throw $stack37, yes
+l3 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: int gaussianWeekTerm(int)>(l1), yes
+l4 = l0 % 100, yes
+l5 = staticinvoke <java.lang.Math: int floorDiv(int,int)>(l0, 100), yes
+if l4 >= 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(86), yes
+l4 = l4 + 100, yes
+if l1 > 2 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(91), yes
+l4 = l4 + -1, yes
+if l4 >= 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(91), yes
+l4 = 99, no
+l5 = l5 + -1, no
+l6 = staticinvoke <java.lang.Math: int floorDiv(int,int)>(l5, 4), yes
+$stack14 = l2 + l3, yes
+$stack16 = $stack14 + l4, yes
+$stack15 = l4 / 4, yes
+$stack17 = $stack16 + $stack15, yes
+$stack19 = $stack17 + l6, yes
+$stack18 = 2 * l5, yes
+$stack20 = $stack19 - $stack18, yes
+l7 = $stack20 % 7, yes
+if l7 > 0 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(102), yes
+l7 = l7 + 7, yes
+return l7, yes
+$stack4 = new java.lang.StringBuilder, yes
+specialinvoke $stack4.<java.lang.StringBuilder: void <init>()>(), yes
+virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(l0), yes
+virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(45), yes
+if l1 >= 10 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(109), yes
+virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(48), yes
+virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(l1), yes
+virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(45), yes
+if l2 >= 10 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(113), yes
+virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(48), no
+virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(l2), yes
+$stack10 = virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.String toString()>(), yes
+return $stack10, yes
+if l0 != 1 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(118), yes
+return 28, yes
+if l0 != 2 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(120), yes
+return 31, yes
+if l0 != 3 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(122), yes
+return 2, yes
+if l0 != 4 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(124), yes
+return 5, no
+if l0 != 5 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(126), yes
+return 7, yes
+if l0 != 6 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(128), yes
+return 10, yes
+if l0 != 7 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(130), yes
+return 12, yes
+if l0 != 8 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(132), yes
+return 15, yes
+if l0 != 9 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(134), yes
+return 18, yes
+if l0 != 10 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(136), yes
+return 20, yes
+if l0 != 11 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(138), yes
+return 23, yes
+if l0 != 12 goto staticinvoke <comp5111.assignment.StmtCounter: void addStmtInvoked(int)>(140), no
+return 25, no
+$stack1 = new java.lang.IllegalArgumentException, no
+$stack2 = dynamicinvoke "makeConcatWithConstants" <java.lang.String (int)>(l0) <java.lang.invoke.StringConcatFactory: java.lang.invoke.CallSite makeConcatWithConstants(java.lang.invoke.MethodHandles$Lookup,java.lang.String,java.lang.invoke.MethodType,java.lang.String,java.lang.Object[])>("Month out of range: \u0001"), no
+specialinvoke $stack1.<java.lang.IllegalArgumentException: void <init>(java.lang.String)>($stack2), no
+throw $stack1, no
+
+Number of Statements: 144
+Number of Invoked Statements: 120
+Percentage: 83.33333333333333%
