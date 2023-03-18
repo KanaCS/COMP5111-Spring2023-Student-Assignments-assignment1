@@ -46,7 +46,7 @@ Branch_Subject$FilenameTasks.txt: 	39.7		34.7		5.0
 Branch_Subject$GregorianTasks.txt: 	85.1		85.1		0.0
 Branch_Subject$NumberTasks.txt: 	27.3		23.3		4.0
 Branch_Subject$StringTasks.txt: 	70.3		63.2		7.1
-Branch_Subject.txt: 			55.6		51.4		4.3
+Branch_Subject.txt: 			55.6		51.4		4.2
 
 Line_Subject$ArrayTasks.txt: 		94.1		95.0		-0.9
 Line_Subject$BooleanTasks.txt: 		100.0		100.0		0.0
@@ -111,7 +111,7 @@ Line_Subject$BooleanTasks.txt: 		100.0		100.0		0.0
 Line_Subject$CharTasks.txt: 		100.0		100.0		0.0
 Line_Subject$FilenameTasks.txt: 	48.9		50.0		-1.1
 Line_Subject$GregorianTasks.txt: 	85.2		83.8		1.4
-Line_Subject$NumberTasks.txt: 		42.5		34.3		8.1
+Line_Subject$NumberTasks.txt: 		42.5		34.3		8.2
 Line_Subject$StringTasks.txt: 		77.6		78.3		-0.7
 Line_Subject.txt: 			63.0		61.0		2.0
 
