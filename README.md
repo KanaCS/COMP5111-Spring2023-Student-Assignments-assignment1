@@ -16,7 +16,7 @@ cd ${PROJECT_ROOT}/scripts/
 ```
 
 ### Task 1.2: To learn how to use EclEmma for code coverage measurement.
-The screenshots are located in ${PROJECT_ROOT}/screenshots/
+The screenshots are located in `${PROJECT_ROOT}/screenshots/` while the generated test suite are locateed in  `${PROJECT_ROOT}/src/test/randoop${i}` for i in {0..4}.
 
 ### Task 2: Statement coverage measurement using Soot (40%)
 
@@ -74,11 +74,11 @@ cd ${PROJECT_ROOT}/scripts/
 
 ### Remarks
 
-1. The coverage report is on ${PROJECT_ROOT}/scripts/randoop${i}/${typeOfCoverage}Report/${classname}.txt, an example is ${PROJECT_ROOT}/scripts/randoop0/BranchReport/Branch_Subject$StringTasks.txt. The report includes 
+1. The coverage report is on `${PROJECT_ROOT}/scripts/randoop${i}/${typeOfCoverage}Report/${classname}.txt`, an example is ${PROJECT_ROOT}/scripts/randoop0/BranchReport/Branch_Subject$StringTasks.txt. The report includes 
 - coverage of each statement/branch/line (statement/branch/line, yes or no)
 - total number of statement/branch/line, number of invoked statement/branch/line, and the percentage coverage
 
-2. The overview.txt is generated from scripts/get_overview.sh, which extract the percentage coverage information from the report in (1).
+2. The `overview.txt` is generated from scripts/get_overview.sh, which extract the percentage coverage information from the report in (1).
 
-3. The difference between the result from EclEmma and Soot is in ${PROJECT_ROOT}/scripts/difference.txt. 
+3. The difference between the result from EclEmma and Soot is in `${PROJECT_ROOT}/scripts/difference.txt`. 
 The result are extracted from the all the files of overview.txt and the screenshots of running EclEmma in ${PROJECT_ROOT}/screenshots.
