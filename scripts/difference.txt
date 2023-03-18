@@ -9,14 +9,14 @@ Stmt_Subject$NumberTasks.txt: 		38.1		38.4		-0.3
 Stmt_Subject$StringTasks.txt: 		74.0		76.0		-2.0
 Stmt_Subject.txt: 			59.5		62.4		-2.9
 
-Branch_Subject$ArrayTasks.txt: 		77.2		95.5		-18.3
+Branch_Subject$ArrayTasks.txt: 		95.4		95.5		-0.1
 Branch_Subject$BooleanTasks.txt: 	100.0		100.0		0.0
 Branch_Subject$CharTasks.txt: 		83.3		70.8		12.5
-Branch_Subject$FilenameTasks.txt: 	34.6		24.7		9.9
-Branch_Subject$GregorianTasks.txt: 	71.2		84.0		12.8
-Branch_Subject$NumberTasks.txt: 	22.6		23.3		-0.7
-Branch_Subject$StringTasks.txt: 	62.5		63.2		-0.7
-Branch_Subject.txt: 			48.2		51.2		-2.0
+Branch_Subject$FilenameTasks.txt: 	39.7		24.7		15.0
+Branch_Subject$GregorianTasks.txt: 	84.0		84.0		0.0
+Branch_Subject$NumberTasks.txt: 	27.3		23.3		4.0
+Branch_Subject$StringTasks.txt: 	70.3		63.2		7.1
+Branch_Subject.txt: 			54.9		51.2		3.7
 
 Line_Subject$ArrayTasks.txt: 		94.1		95.0		-0.9
 Line_Subject$BooleanTasks.txt: 		100.0		100.0		0.0
@@ -39,14 +39,14 @@ Stmt_Subject$NumberTasks.txt: 		38.1		38.4		-0.3
 Stmt_Subject$StringTasks.txt: 		74.0		76.0		-2.0
 Stmt_Subject.txt: 			59.1		62.0		-2.9
 
-Branch_Subject$ArrayTasks.txt: 		77.2		95.5		-18.3
+Branch_Subject$ArrayTasks.txt: 		95.4		95.5		-0.1
 Branch_Subject$BooleanTasks.txt: 	100.0		100.0		0.0
 Branch_Subject$CharTasks.txt: 		83.3		70.8		12.5
-Branch_Subject$FilenameTasks.txt: 	34.6		34.7		-0.1
-Branch_Subject$GregorianTasks.txt: 	72.3		85.1		-12.8
-Branch_Subject$NumberTasks.txt: 	22.6		23.3		-0.7
-Branch_Subject$StringTasks.txt: 	62.5		63.2		-0.7
-Branch_Subject.txt: 			48.1		51.4		-3.3
+Branch_Subject$FilenameTasks.txt: 	39.7		34.7		5.0
+Branch_Subject$GregorianTasks.txt: 	85.1		85.1		0.0
+Branch_Subject$NumberTasks.txt: 	27.3		23.3		4.0
+Branch_Subject$StringTasks.txt: 	70.3		63.2		7.1
+Branch_Subject.txt: 			55.6		51.4		4.3
 
 Line_Subject$ArrayTasks.txt: 		94.1		95.0		-0.9
 Line_Subject$BooleanTasks.txt: 		100.0		100.0		0.0
@@ -68,14 +68,14 @@ Stmt_Subject$NumberTasks.txt: 		38.1		38.4		-0.3
 Stmt_Subject$StringTasks.txt: 		74.0		76.0		-2.0
 Stmt_Subject.txt: 			58.2		62.0		-3.8
 
-Branch_Subject$ArrayTasks.txt: 		77.2		95.5		-18.3
+Branch_Subject$ArrayTasks.txt: 		95.4		95.5		-0.1
 Branch_Subject$BooleanTasks.txt: 	100.0		100.0		0.0
 Branch_Subject$CharTasks.txt: 		83.3		70.8		12.5
-Branch_Subject$FilenameTasks.txt: 	34.6		34.7		-0.1
-Branch_Subject$GregorianTasks.txt: 	72.3		85.1		-12.8
-Branch_Subject$NumberTasks.txt: 	22.6		23.3		-0.7
-Branch_Subject$StringTasks.txt: 	62.5		63.2		-0.7
-Branch_Subject.txt: 			47.8		51.4		-3.6
+Branch_Subject$FilenameTasks.txt: 	39.7		34.7		5.0
+Branch_Subject$GregorianTasks.txt: 	85.1		85.1		0.0
+Branch_Subject$NumberTasks.txt: 	27.3		23.3		4.0
+Branch_Subject$StringTasks.txt: 	70.3		63.2		7.1
+Branch_Subject.txt: 			55.4		51.4		4.0
 
 Line_Subject$ArrayTasks.txt: 		94.1		95.0		-0.9
 Line_Subject$BooleanTasks.txt: 		100.0		100.0		0.0
@@ -97,14 +97,14 @@ Stmt_Subject$NumberTasks.txt: 		38.1		38.4		-0.3
 Stmt_Subject$StringTasks.txt: 		74.0		76.0		-2.0
 Stmt_Subject.txt: 			59.7		61.8		-2.1
 
-Branch_Subject$ArrayTasks.txt: 		77.2		95.5		-18.3
+Branch_Subject$ArrayTasks.txt: 		95.4		95.5		-0.1
 Branch_Subject$BooleanTasks.txt: 	100.0		100.0		0.0
 Branch_Subject$CharTasks.txt: 		83.3		70.8		12.5
-Branch_Subject$FilenameTasks.txt: 	34.6		34.7		-0.1
-Branch_Subject$GregorianTasks.txt: 	69.1		80.9		-11.8
-Branch_Subject$NumberTasks.txt: 	22.6		23.3		-0.7
-Branch_Subject$StringTasks.txt: 	62.5		63.2		-0.7
-Branch_Subject.txt: 			47.3		50.7		-3.4
+Branch_Subject$FilenameTasks.txt: 	39.7		34.7		5.0
+Branch_Subject$GregorianTasks.txt: 	81.9		80.9		1.0
+Branch_Subject$NumberTasks.txt: 	27.3		23.3		4.0
+Branch_Subject$StringTasks.txt: 	70.3		63.2		7.1
+Branch_Subject.txt: 			54.9		50.7		4.2
 
 Line_Subject$ArrayTasks.txt: 		94.1		95.0		-0.9
 Line_Subject$BooleanTasks.txt: 		100.0		100.0		0.0
@@ -126,14 +126,14 @@ Stmt_Subject$NumberTasks.txt: 		38.1		38.4		-0.3
 Stmt_Subject$StringTasks.txt: 		72.0		74.4		-2.4
 Stmt_Subject.txt: 			56.4		59.2		-2.8
 
-Branch_Subject$ArrayTasks.txt: 		77.2		95.5		-18.3
+Branch_Subject$ArrayTasks.txt: 		95.4		95.5		-0.1
 Branch_Subject$BooleanTasks.txt: 	100.0		100.0		0.0
 Branch_Subject$CharTasks.txt: 		83.3		70.8		12.5
-Branch_Subject$FilenameTasks.txt: 	34.6		34.7		-0.1
-Branch_Subject$GregorianTasks.txt: 	62.7		78.7		-16.0
-Branch_Subject$NumberTasks.txt: 	22.6		23.3		-0.7
-Branch_Subject$StringTasks.txt: 	60.5		61.2		-0.7
-Branch_Subject.txt: 			46.4		49.8		-3.4
+Branch_Subject$FilenameTasks.txt: 	39.7		34.7		5.0
+Branch_Subject$GregorianTasks.txt: 	78.7		78.7		0.0
+Branch_Subject$NumberTasks.txt: 	27.3		23.3		4.0
+Branch_Subject$StringTasks.txt: 	68.4		61.2		7.2
+Branch_Subject.txt: 			53.8		49.8		4.0
 
 Line_Subject$ArrayTasks.txt: 		94.1		95.0		-0.9
 Line_Subject$BooleanTasks.txt: 		100.0		100.0		0.0

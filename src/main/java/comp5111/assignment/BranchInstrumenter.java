@@ -79,7 +79,7 @@ public class BranchInstrumenter extends BodyTransformer {
             // 2. then, make a invoke statement
 			Stmt incStmt2 = Jimple.v().newInvokeStmt(incExpr2);
 			// then, insert stmt into chain, before the statement
-			units.insertAfter(incStmt2, tstmt);
+			units.insertBefore(incStmt2, tstmt);
 		}
 	}
 

@@ -1,26 +1,26 @@
-if l0 == null goto $stack1 = 0, yes
+if l0 == null goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(1), yes
 $stack1 = 0, yes
-if $stack1 != 0 goto $stack2 = 0, yes
+if $stack1 != 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(3), yes
 $stack2 = 0, yes
-if l0 == null goto return -1, yes
-return -1, no
-if l2 >= 0 goto $stack4 = lengthof l0, yes
+if l0 == null goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(5), yes
+return -1, yes
+if l2 >= 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(7), yes
 $stack4 = lengthof l0, yes
-if l2 < $stack4 goto (branch), yes
-if l1 != null goto $stack5 = virtualinvoke l0.<java.lang.Object: java.lang.Class getClass()>(), yes
-if l1 != null goto $stack5 = virtualinvoke l0.<java.lang.Object: java.lang.Class getClass()>(), yes
+if l2 < $stack4 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(9), yes
+if l1 != null goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(11), yes
+if l1 != null goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(11), yes
 $stack5 = virtualinvoke l0.<java.lang.Object: java.lang.Class getClass()>(), yes
-if l3 < 0 goto (branch), yes
-goto [?= return -1], no
-if $stack12 != null goto l3 = l3 + -1, no
+if l3 < 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(13), yes
+goto [?= staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(19)], yes
+if $stack12 != null goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(15), no
 l3 = l3 + -1, yes
-if $stack7 == 0 goto return -1, yes
-return -1, no
-if l3 < 0 goto return -1, yes
-return -1, no
-if $stack10 == 0 goto l3 = l3 + -1, yes
+if $stack7 == 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(19), yes
+return -1, yes
+if l3 < 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(19), yes
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(17), yes
+if $stack10 == 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(21), yes
 l3 = l3 + -1, yes
 
 Number of Branches: 22
-Number of Invoked Branches: 17
-Percentage: 77.27272727272727%
+Number of Invoked Branches: 21
+Percentage: 95.45454545454545%

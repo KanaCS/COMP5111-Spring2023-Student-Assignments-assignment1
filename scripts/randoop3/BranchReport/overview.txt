@@ -1,8 +1,8 @@
-Branch_Subject$ArrayTasks.txt: 77.2
+Branch_Subject$ArrayTasks.txt: 95.4
 Branch_Subject$BooleanTasks.txt: 100.0
 Branch_Subject$CharTasks.txt: 83.3
-Branch_Subject$FilenameTasks.txt: 34.6
-Branch_Subject$GregorianTasks.txt: 69.1
-Branch_Subject$NumberTasks.txt: 22.6
-Branch_Subject$StringTasks.txt: 62.5
-Branch_Subject.txt: 47.3
+Branch_Subject$FilenameTasks.txt: 39.7
+Branch_Subject$GregorianTasks.txt: 81.9
+Branch_Subject$NumberTasks.txt: 27.3
+Branch_Subject$StringTasks.txt: 70.3
+Branch_Subject.txt: 54.9

@@ -1,98 +1,98 @@
-if l0 <= 1900 goto $stack1 = l0 & 3, yes
+if l0 <= 1900 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(3), yes
 $stack1 = l0 & 3, yes
-if l0 >= 2100 goto $stack1 = l0 & 3, no
-$stack1 = l0 & 3, yes
-if $stack7 != 0 goto $stack8 = 0, no
+if l0 >= 2100 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(3), no
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(1), yes
+if $stack7 != 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(5), no
 $stack8 = 0, no
-if $stack1 == 0 goto $stack4 = 1, yes
+if $stack1 == 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(9), yes
 $stack4 = 1, yes
-if $stack2 != 0 goto $stack4 = 1, no
-$stack4 = 1, yes
-if $stack3 != 0 goto $stack4 = 0, no
+if $stack2 != 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(9), no
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(7), yes
+if $stack3 != 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(11), no
 $stack4 = 0, no
-if l1 == 1 goto return 31, yes
-return 31, no
-if l1 == 3 goto return 31, yes
-return 31, no
-if l1 == 5 goto return 31, yes
-return 31, no
-if l1 == 7 goto return 31, yes
-return 31, no
-if l1 == 8 goto return 31, yes
-return 31, no
-if l1 == 10 goto return 31, yes
-return 31, no
-if l1 != 12 goto (branch), no
-if l1 == 4 goto return 30, yes
-if l1 == 4 goto return 30, yes
-return 30, no
-if l1 == 6 goto return 30, yes
-return 30, no
-if l1 == 9 goto return 30, yes
-return 30, no
-if l1 != 11 goto (branch), yes
-if l1 != 2 goto $stack4 = new java.lang.IllegalArgumentException, yes
-if l1 != 2 goto $stack4 = new java.lang.IllegalArgumentException, yes
+if l1 == 1 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(23), yes
+return 31, yes
+if l1 == 3 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(23), yes
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(13), yes
+if l1 == 5 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(23), yes
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(15), yes
+if l1 == 7 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(23), yes
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(17), yes
+if l1 == 8 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(23), yes
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(19), yes
+if l1 == 10 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(23), yes
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(21), yes
+if l1 != 12 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(25), no
+if l1 == 4 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(31), yes
+if l1 == 4 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(31), yes
+return 30, yes
+if l1 == 6 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(31), yes
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(27), yes
+if l1 == 9 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(31), yes
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(29), yes
+if l1 != 11 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(33), yes
+if l1 != 2 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(35), yes
+if l1 != 2 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(35), yes
 $stack4 = new java.lang.IllegalArgumentException, yes
-if $stack6 == 0 goto $stack7 = 28, yes
+if $stack6 == 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(37), yes
 $stack7 = 28, no
-if l0 < -999999999 goto $stack3 = new java.lang.IllegalArgumentException, yes
+if l0 < -999999999 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(39), yes
 $stack3 = new java.lang.IllegalArgumentException, no
-if l0 <= 999999999 goto (branch), no
-if l1 < 1 goto $stack5 = new java.lang.IllegalArgumentException, yes
-if l1 < 1 goto $stack5 = new java.lang.IllegalArgumentException, yes
+if l0 <= 999999999 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(41), no
+if l1 < 1 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(43), yes
+if l1 < 1 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(43), yes
 $stack5 = new java.lang.IllegalArgumentException, yes
-if l1 <= 12 goto (branch), yes
-if l2 < 1 goto $stack7 = new java.lang.IllegalArgumentException, yes
-if l2 < 1 goto $stack7 = new java.lang.IllegalArgumentException, yes
+if l1 <= 12 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(45), yes
+if l2 < 1 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(47), yes
+if l2 < 1 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(47), yes
 $stack7 = new java.lang.IllegalArgumentException, yes
-if l2 <= 31 goto $stack9 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: int getLengthOfMonth(int,int)>(l0, l1), yes
+if l2 <= 31 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(49), yes
 $stack9 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: int getLengthOfMonth(int,int)>(l0, l1), yes
-if l2 <= $stack9 goto return, no
-return, no
-if l2 < 1 goto $stack8 = new java.lang.IllegalArgumentException, yes
+if l2 <= $stack9 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(51), no
+return, yes
+if l2 < 1 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(53), yes
 $stack8 = new java.lang.IllegalArgumentException, yes
-if l2 <= 31 goto $stack10 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: int getLengthOfMonth(int,int)>(l0, l1), yes
+if l2 <= 31 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(55), yes
 $stack10 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: int getLengthOfMonth(int,int)>(l0, l1), yes
-if l2 <= $stack10 goto l3 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: int gaussianWeekTerm(int)>(l1), yes
+if l2 <= $stack10 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(57), yes
 l3 = staticinvoke <comp5111.assignment.cut.Subject$GregorianTasks: int gaussianWeekTerm(int)>(l1), yes
-if l4 >= 0 goto (branch), yes
-if l1 > 2 goto l6 = staticinvoke <java.lang.Math: int floorDiv(int,int)>(l5, 4), yes
-if l1 > 2 goto l6 = staticinvoke <java.lang.Math: int floorDiv(int,int)>(l5, 4), yes
+if l4 >= 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(59), yes
+if l1 > 2 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(63), yes
+if l1 > 2 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(63), yes
 l6 = staticinvoke <java.lang.Math: int floorDiv(int,int)>(l5, 4), yes
-if l4 >= 0 goto l6 = staticinvoke <java.lang.Math: int floorDiv(int,int)>(l5, 4), no
-l6 = staticinvoke <java.lang.Math: int floorDiv(int,int)>(l5, 4), yes
-if l7 > 0 goto return l7, yes
-return l7, no
-if l1 >= 10 goto virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(l1), yes
+if l4 >= 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(63), no
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(61), yes
+if l7 > 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(65), yes
+return l7, yes
+if l1 >= 10 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(67), yes
 virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(l1), yes
-if l2 >= 10 goto virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(l2), no
+if l2 >= 10 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(69), no
 virtualinvoke $stack4.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(l2), yes
-if l0 != 1 goto (branch), yes
-if l0 != 2 goto (branch), yes
-if l0 != 2 goto (branch), yes
-if l0 != 3 goto (branch), yes
-if l0 != 3 goto (branch), yes
-if l0 != 4 goto (branch), yes
-if l0 != 4 goto (branch), yes
-if l0 != 5 goto (branch), yes
-if l0 != 5 goto (branch), yes
-if l0 != 6 goto (branch), yes
-if l0 != 6 goto (branch), yes
-if l0 != 7 goto (branch), yes
-if l0 != 7 goto (branch), yes
-if l0 != 8 goto (branch), no
-if l0 != 8 goto (branch), no
-if l0 != 9 goto (branch), yes
-if l0 != 9 goto (branch), yes
-if l0 != 10 goto (branch), yes
-if l0 != 10 goto (branch), yes
-if l0 != 11 goto (branch), yes
-if l0 != 11 goto (branch), yes
-if l0 != 12 goto $stack1 = new java.lang.IllegalArgumentException, no
-if l0 != 12 goto $stack1 = new java.lang.IllegalArgumentException, no
+if l0 != 1 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(71), yes
+if l0 != 2 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(73), yes
+if l0 != 2 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(73), yes
+if l0 != 3 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(75), yes
+if l0 != 3 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(75), yes
+if l0 != 4 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(77), yes
+if l0 != 4 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(77), yes
+if l0 != 5 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(79), yes
+if l0 != 5 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(79), yes
+if l0 != 6 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(81), yes
+if l0 != 6 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(81), yes
+if l0 != 7 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(83), yes
+if l0 != 7 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(83), yes
+if l0 != 8 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(85), yes
+if l0 != 8 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(85), no
+if l0 != 9 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(87), yes
+if l0 != 9 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(87), yes
+if l0 != 10 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(89), yes
+if l0 != 10 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(89), yes
+if l0 != 11 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(91), yes
+if l0 != 11 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(91), yes
+if l0 != 12 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(93), no
+if l0 != 12 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(93), no
 $stack1 = new java.lang.IllegalArgumentException, no
 
 Number of Branches: 94
-Number of Invoked Branches: 65
-Percentage: 69.14893617021276%
+Number of Invoked Branches: 77
+Percentage: 81.91489361702128%

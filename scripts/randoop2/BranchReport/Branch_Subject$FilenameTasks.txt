@@ -1,102 +1,102 @@
-if l0 != 47 goto (branch), no
-if l0 != 92 goto $stack1 = new java.lang.IllegalArgumentException, no
-if l0 != 92 goto $stack1 = new java.lang.IllegalArgumentException, no
+if l0 != 47 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(1), no
+if l0 != 92 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(3), yes
+if l0 != 92 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(3), no
 $stack1 = new java.lang.IllegalArgumentException, yes
-if l0 != null goto $stack1 = staticinvoke <comp5111.assignment.cut.Subject$FilenameTasks: java.lang.String requireNonNullChars(java.lang.String)>(l0), no
+if l0 != null goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(5), no
 $stack1 = staticinvoke <comp5111.assignment.cut.Subject$FilenameTasks: java.lang.String requireNonNullChars(java.lang.String)>(l0), yes
-if l0 != null goto l1 = virtualinvoke l0.<java.lang.String: int lastIndexOf(int)>(47), no
+if l0 != null goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(7), no
 l1 = virtualinvoke l0.<java.lang.String: int lastIndexOf(int)>(47), yes
-if $stack7 == 0 goto return 0, no
-return 0, no
-if $stack8 == 4 goto l2 = 1, no
+if $stack7 == 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(9), no
+return 0, yes
+if $stack8 == 4 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(11), no
 l2 = 1, no
-if l2 > 4 goto return 1, no
+if l2 > 4 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(13), no
 return 1, no
-if l4 <= 255 goto $stack11 = virtualinvoke l3.<java.lang.String: int length()>(), no
+if l4 <= 255 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(15), no
 $stack11 = virtualinvoke l3.<java.lang.String: int length()>(), no
-if $stack11 <= 1 goto l2 = l2 + 1, no
+if $stack11 <= 1 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(19), no
 l2 = l2 + 1, no
-if $stack14 == 0 goto l2 = l2 + 1, no
-l2 = l2 + 1, no
-if l1 == 0 goto $stack10 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String)>(":"), no
+if $stack14 == 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(19), no
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(17), no
+if l1 == 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(23), no
 $stack10 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String)>(":"), yes
-if $stack49 == $stack50 goto $stack10 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String)>(":"), no
-$stack10 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String)>(":"), yes
-if $stack10 == 0 goto $stack11 = virtualinvoke l0.<java.lang.String: boolean endsWith(java.lang.String)>(":"), no
+if $stack49 == $stack50 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(23), no
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(21), yes
+if $stack10 == 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(25), no
 $stack11 = virtualinvoke l0.<java.lang.String: boolean endsWith(java.lang.String)>(":"), yes
-if $stack45 == 0 goto return 0, no
+if $stack45 == 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(27), no
 return 0, no
-if $stack11 == 0 goto l2 = virtualinvoke l0.<java.lang.String: java.lang.String[] split(java.lang.String)>(":"), no
+if $stack11 == 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(31), no
 l2 = virtualinvoke l0.<java.lang.String: java.lang.String[] split(java.lang.String)>(":"), yes
-if $stack41 != 0 goto l2 = virtualinvoke l0.<java.lang.String: java.lang.String[] split(java.lang.String)>(":"), no
-l2 = virtualinvoke l0.<java.lang.String: java.lang.String[] split(java.lang.String)>(":"), yes
-if l1 == 0 goto $stack13 = lengthof l2, no
+if $stack41 != 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(31), no
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(29), yes
+if l1 == 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(33), no
 $stack13 = lengthof l2, yes
-if $stack30 == 0 goto $stack31 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String)>("::"), no
+if $stack30 == 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(35), no
 $stack31 = virtualinvoke l0.<java.lang.String: boolean startsWith(java.lang.String)>("::"), no
-if $stack31 == 0 goto $stack32 = <comp5111.assignment.cut.Subject$FilenameTasks: java.lang.String[] EMPTY_STRING_ARRAY>, no
+if $stack31 == 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(39), no
 $stack32 = <comp5111.assignment.cut.Subject$FilenameTasks: java.lang.String[] EMPTY_STRING_ARRAY>, no
-if $stack36 != 0 goto $stack32 = <comp5111.assignment.cut.Subject$FilenameTasks: java.lang.String[] EMPTY_STRING_ARRAY>, no
-$stack32 = <comp5111.assignment.cut.Subject$FilenameTasks: java.lang.String[] EMPTY_STRING_ARRAY>, no
-if $stack13 <= 8 goto l3#27 = 0, no
+if $stack36 != 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(39), no
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(37), no
+if $stack13 <= 8 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(41), no
 l3#27 = 0, yes
-if l5 >= $stack14 goto (branch), yes
-if l3#27 > 8 goto $stack15 = 0, yes
-if $stack16 == 0 goto l4 = 0, yes
+if l5 >= $stack14 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(43), yes
+if l3#27 > 8 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(65), yes
+if $stack16 == 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(45), yes
 l4 = 0, yes
-if l4 <= 1 goto l3#27 = l3#27 + 1, no
+if l4 <= 1 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(59), no
 l3#27 = l3#27 + 1, yes
-if l5 != $stack18 goto $stack19 = virtualinvoke l6.<java.lang.String: int length()>(), yes
+if l5 != $stack18 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(51), yes
 $stack19 = virtualinvoke l6.<java.lang.String: int length()>(), yes
-if $stack24 == 0 goto $stack19 = virtualinvoke l6.<java.lang.String: int length()>(), no
-$stack19 = virtualinvoke l6.<java.lang.String: int length()>(), yes
-if $stack27 != 0 goto l3#27 = l3#27 + 2, no
+if $stack24 == 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(51), no
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(49), yes
+if $stack27 != 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(53), no
 l3#27 = l3#27 + 2, no
-if $stack19 <= 4 goto l7 = staticinvoke <java.lang.Integer: int parseInt(java.lang.String,int)>(l6, 16), yes
-l7 = staticinvoke <java.lang.Integer: int parseInt(java.lang.String,int)>(l6, 16), no
-if l7 < 0 goto return 0, no
+if $stack19 <= 4 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(55), yes
+l7 = staticinvoke <java.lang.Integer: int parseInt(java.lang.String,int)>(l6, 16), yes
+if l7 < 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(57), no
 return 0, no
-if l7 <= 65535 goto l3#27 = l3#27 + 1, no
-l3#27 = l3#27 + 1, yes
-if l3#27 > 8 goto $stack15 = 0, yes
+if l7 <= 65535 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(59), no
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(47), yes
+if l3#27 > 8 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(65), yes
 $stack15 = 0, yes
-if l3#27 >= 8 goto $stack15 = 1, yes
+if l3#27 >= 8 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(63), yes
 $stack15 = 1, no
-if l1 == 0 goto $stack15 = 0, no
-$stack15 = 0, yes
-if l2 >= $stack4 goto return 1, yes
-return 1, no
-if $stack6 == 0 goto $stack8 = <comp5111.assignment.cut.Subject$FilenameTasks: java.util.regex.Pattern REG_NAME_PART_PATTERN>, yes
+if l1 == 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(65), no
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(61), yes
+if l2 >= $stack4 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(67), yes
+return 1, yes
+if $stack6 == 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(69), yes
 $stack8 = <comp5111.assignment.cut.Subject$FilenameTasks: java.util.regex.Pattern REG_NAME_PART_PATTERN>, yes
-if l2 != $stack14 goto $stack15 = 0, yes
+if l2 != $stack14 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(71), yes
 $stack15 = 0, no
-if $stack10 != 0 goto l2 = l2 + 1, yes
+if $stack10 != 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(73), yes
 l2 = l2 + 1, yes
-if l0 == 47 goto $stack1 = 1, yes
+if l0 == 47 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(75), yes
 $stack1 = 1, no
-if l0 != 92 goto $stack1 = 0, no
+if l0 != 92 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(77), no
 $stack1 = 0, yes
-if $stack1 < 0 goto return l0, no
-return l0, no
-if $stack9 != -1 goto l1 = virtualinvoke l0.<java.lang.String: char[] toCharArray()>(), yes
+if $stack1 < 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(79), no
+return l0, yes
+if $stack9 != -1 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(83), yes
 l1 = virtualinvoke l0.<java.lang.String: char[] toCharArray()>(), no
-if $stack32 != -1 goto l1 = virtualinvoke l0.<java.lang.String: char[] toCharArray()>(), yes
-l1 = virtualinvoke l0.<java.lang.String: char[] toCharArray()>(), no
-if l7 >= l6 goto $stack13 = virtualinvoke $stack12.<java.lang.StringBuilder: int length()>(), no
+if $stack32 != -1 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(83), yes
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(81), no
+if l7 >= l6 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(85), no
 $stack13 = virtualinvoke $stack12.<java.lang.StringBuilder: int length()>(), no
-if l8 == 63 goto $stack20 = virtualinvoke $stack12.<java.lang.StringBuilder: int length()>(), no
+if l8 == 63 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(87), no
 $stack20 = virtualinvoke $stack12.<java.lang.StringBuilder: int length()>(), no
-if l8 != 42 goto virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(l8), no
+if l8 != 42 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(89), no
 virtualinvoke $stack12.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>(l8), no
-if $stack20 == 0 goto (branch), no
-if l8 != 63 goto (branch), no
-if l8 != 63 goto (branch), no
-if l4 == 42 goto l4 = l8, no
-if l4 == 42 goto l4 = l8, no
+if $stack20 == 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(91), no
+if l8 != 63 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(93), no
+if l8 != 63 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(93), no
+if l4 == 42 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(95), no
+if l4 == 42 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(95), no
 l4 = l8, no
-if $stack13 == 0 goto $stack14 = <comp5111.assignment.cut.Subject$FilenameTasks: java.lang.String[] EMPTY_STRING_ARRAY>, no
+if $stack13 == 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(97), no
 $stack14 = <comp5111.assignment.cut.Subject$FilenameTasks: java.lang.String[] EMPTY_STRING_ARRAY>, no
 
 Number of Branches: 98
-Number of Invoked Branches: 34
-Percentage: 34.69387755102041%
+Number of Invoked Branches: 39
+Percentage: 39.795918367346935%

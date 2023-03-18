@@ -1,27 +1,27 @@
-if l0 == null goto $stack2 = l1, yes
+if l0 == null goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(1), yes
 $stack2 = l1, no
-if l0 >= 128 goto $stack1 = 0, yes
+if l0 >= 128 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(3), yes
 $stack1 = 0, no
-if l0 < 32 goto $stack1 = 0, yes
+if l0 < 32 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(7), yes
 $stack1 = 0, yes
-if l0 >= 127 goto $stack1 = 0, yes
-$stack1 = 0, yes
-if l0 < 32 goto $stack1 = 1, yes
+if l0 >= 127 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(7), yes
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(5), yes
+if l0 < 32 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(9), yes
 $stack1 = 1, yes
-if l0 != 127 goto $stack1 = 0, no
+if l0 != 127 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(11), no
 $stack1 = 0, yes
-if $stack1 != 0 goto $stack3 = 1, yes
+if $stack1 != 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(13), yes
 $stack3 = 1, yes
-if $stack2 == 0 goto $stack3 = 0, yes
+if $stack2 == 0 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(15), yes
 $stack3 = 0, yes
-if l0 < 65 goto $stack1 = 0, yes
+if l0 < 65 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(19), yes
 $stack1 = 0, yes
-if l0 > 90 goto $stack1 = 0, no
+if l0 > 90 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(19), no
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(17), yes
+if l0 < 97 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(23), yes
 $stack1 = 0, yes
-if l0 < 97 goto $stack1 = 0, yes
-$stack1 = 0, yes
-if l0 > 122 goto $stack1 = 0, yes
-$stack1 = 0, yes
+if l0 > 122 goto staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(23), yes
+staticinvoke <comp5111.assignment.BranchCounter: void addStmtInvoked(int)>(21), yes
 
 Number of Branches: 24
 Number of Invoked Branches: 20
