@@ -12,7 +12,7 @@ Stmt_Subject.txt: 			59.5		62.4		-2.9
 Branch_Subject$ArrayTasks.txt: 		95.4		95.5		-0.1
 Branch_Subject$BooleanTasks.txt: 	100.0		100.0		0.0
 Branch_Subject$CharTasks.txt: 		83.3		70.8		12.5
-Branch_Subject$FilenameTasks.txt: 	39.7		24.7		15.0
+Branch_Subject$FilenameTasks.txt: 	39.7		34.7		5.0
 Branch_Subject$GregorianTasks.txt: 	84.0		84.0		0.0
 Branch_Subject$NumberTasks.txt: 	27.3		23.3		4.0
 Branch_Subject$StringTasks.txt: 	70.3		63.2		7.1
