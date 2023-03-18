@@ -6,26 +6,29 @@
 
 ### Task 1.1: To learn how to use Randoop for unit test generation.
 
-run the gen-tests.sh script in COMP5111-Spring2023-Student-Assignments-assignment1/scripts/
+run the gen-tests.sh script in ${PROJECT_ROOT}/scripts/
 
 ```
-cd COMP5111-Spring2023-Student-Assignments-assignment1/scripts/
+cd ${PROJECT_ROOT}/scripts/
 . gen-tests.sh
 ```
 
 ### Task 1.2: To learn how to use EclEmma for code coverage measurement.
-The screenshots are located in COMP5111-Spring2023-Student-Assignments-assignment1/comp5111_screenshot/
+The screenshots are located in ${PROJECT_ROOT}/screenshots/
 
 ### Task 2: Statement coverage measurement using Soot (40%)
 
-The relevant .java file are located in COMP5111-Spring2023-Student-Assignments-assignment1/src/main/java/comp5111/assignment/, including `Assignment1.java`,  `StmtCounter.java` and `StmtInstrumenter.java`.
+The relevant .java file are located in ${PROJECT_ROOT}/src/main/java/comp5111/assignment/, including `Assignment1.java`,  `StmtCounter.java` and `StmtInstrumenter.java`.
 
-To run the analysis, you need to run the instrument-run-test.sh script in COMP5111-Spring2023-Student-Assignments-assignment1/scripts/.
+To run the analysis, you need to run the instrument-run-test.sh script in ${PROJECT_ROOT}/scripts/.
+
+`PROJECT_ROOT=COMP5111-Spring2023-Student-Assignments-assignment1`
 
 ```
-cd COMP5111-Spring2023-Student-Assignments-assignment1/scripts/
+cd ${PROJECT_ROOT}/scripts/
 # remark: running the below script also return the result for task 3 and the bonus task, report is generated in scripts/randoop${i}/${typeOfCoverage}Report for different classes to be analyzed
-# before running the script, you need to first 
+# before running the script, you need to first choose "Build Path" > "Use As Source Folder" for the test suite folder in Eclipse, base on the folder randoop${i} you pick, include the ${i} as a argument for calling instrument-run-test.sh.
+# i.e. ". instrument-run-test.sh 0" is to analyze on randoop0 test suite
 . instrument-run-test.sh ${i}
 # this is to format extract the percentage coverage from the report of different classes and store the overview of coverage result in scripts/randoop${i}/${typeOfCoverage}Report/overview.txt
 . get_overview.sh
@@ -33,36 +36,42 @@ cd COMP5111-Spring2023-Student-Assignments-assignment1/scripts/
 
 ### Task 3: Branch coverage measurement using Soot (30%)
 
-The relevant .java file are located in COMP5111-Spring2023-Student-Assignments-assignment1/src/main/java/comp5111/assignment/, including `Assignment1.java`,  `BranchCounter.java` and `BranchInstrumenter.java`.
+The relevant .java file are located in ${PROJECT_ROOT}/src/main/java/comp5111/assignment/, including `Assignment1.java`,  `BranchCounter.java` and `BranchInstrumenter.java`.
+
+To run the analysis, you need to run the instrument-run-test.sh script in ${PROJECT_ROOT}/scripts/.
+
+```
+cd ${PROJECT_ROOT}/scripts/
+# remark: running the below script also return the result for task 2 and the bonus task, report is generated in scripts/randoop${i}/${typeOfCoverage}Report for different classes to be analyzed
+# before running the script, you need to first choose "Build Path" > "Use As Source Folder" for the test suite folder in Eclipse, base on the folder randoop${i} you pick, include the ${i} as a argument for calling instrument-run-test.sh.
+# i.e. ". instrument-run-test.sh 0" is to analyze on randoop0 test suite
+. instrument-run-test.sh ${i}
+# this is to format extract the percentage coverage from the report of different classes and store the overview of coverage result in scripts/randoop${i}/${typeOfCoverage}Report/overview.txt
+. get_overview.sh
+```
 
 ### Bonus Task: Line coverage measurement using Soot (15%)
 
-The relevant .java file are located in COMP5111-Spring2023-Student-Assignments-assignment1/src/main/java/comp5111/assignment/, including `Assignment1.java`,  `LineCounter.java` and `LineInstrumenter.java`.
+The relevant .java file are located in ${PROJECT_ROOT}/src/main/java/comp5111/assignment/, including `Assignment1.java`,  `LineCounter.java` and `LineInstrumenter.java`.
 
+To run the analysis, you need to run the instrument-run-test.sh script in ${PROJECT_ROOT}/scripts/.
 
-### Program output:
-For each coverage criterion (Task2, Task3, and Bonus Task), your program needs to generate a report file, which at least contains the following:
+```
+cd ${PROJECT_ROOT}/scripts/
+# remark: running the below script also return the result for task 2 and 3, report is generated in scripts/randoop${i}/${typeOfCoverage}Report for different classes to be analyzed
+# before running the script, you need to first choose "Build Path" > "Use As Source Folder" for the test suite folder in Eclipse, base on the folder randoop${i} you pick, include the ${i} as a argument for calling instrument-run-test.sh.
+# i.e. ". instrument-run-test.sh 0" is to analyze on randoop0 test suite
+. instrument-run-test.sh ${i}
+# this is to format extract the percentage coverage from the report of different classes and store the overview of coverage result in scripts/randoop${i}/${typeOfCoverage}Report/overview.txt
+. get_overview.sh
+```
 
-1. The coverage of each statement/branch/line (statement/branch/line, yes or no).
-2. The coverage for each class (percentage), including inner classes.
+### Remarks
 
-### Submissions:
-1. You may put your source code under `comp5111.assignment` package in `src/main/java` folder.
-2. You are recommended to use Java build tools to manage your project, e.g., maven, or gradle.
-3. Put useful scripts or readme files in the project root, containing instructions of how to run your implementation of **each task**.
-4. A file showing the differences of the percentage (coverage for all classes) report by your tool and EclEmma, for **all coverage criteria** you implemented. Minor differences are allowed.
-5. You need to measure all the five submitted test suites.
-6. Advice: You are highly encouraged to maintain your code in a `private` repository at Github. It provides a backup of your code in case your computer crashes and allows us to retrieve code from your Github repository in case of submission errors. Such incidents did happen in the past.
+1. The coverage report is on ${PROJECT_ROOT}/scripts/randoop${i}/${typeOfCoverage}Report/${classname}.txt, an example is ${PROJECT_ROOT}/scripts/randoop0/BranchReport/Branch_Subject$StringTasks.txt. The report includes 
+- coverage of each statement/branch/line (statement/branch/line, yes or no)
+- total number of statement/branch/line, number of invoked statement/branch/line, and the percentage coverage
 
-## Assignment 1 Submission
+2. The overview.txt is generated from scripts/get_overview.sh, which extract the percentage coverage information from the report in (1).
 
-- You are required to submit your assignment to [CANVAS](https://canvas.ust.hk/courses/47981/assignments).
-- Please put all your code, screenshot, readme and so on into a single folder and compress it to `comp5111asg01.zip`
-
-The recommended folder structure is:
-
-1. Put your code into `${PROJECT_ROOT}/src/main/java/`
-2. If you do not use Java build tools, put the libraries jar files that your code depends on into `${PROJECT_ROOT}/lib/`
-3. Put your running scripts under `${PROJECT_ROOT}/scripts`
-4. Put your screenshot into `${PROJECT_ROOT}/screenshots`
-5. Put the test suites generated by you in to `${PROJECT_ROOT}/src/test/randoop[0-4]`
+3. The difference between the result from EclEmma and Soot is in ${PROJECT_ROOT}/scripts/difference.txt. The result are extracted from the all the files of overview.txt and the screenshots of running EclEmma in ${PROJECT_ROOT}/screenshots.
