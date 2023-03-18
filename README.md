@@ -4,6 +4,8 @@
 
 ## student: 20783919
 
+`PROJECT_ROOT=COMP5111-Spring2023-Student-Assignments-assignment1`
+
 ### Task 1.1: To learn how to use Randoop for unit test generation.
 
 run the gen-tests.sh script in ${PROJECT_ROOT}/scripts/
@@ -21,8 +23,6 @@ The screenshots are located in ${PROJECT_ROOT}/screenshots/
 The relevant .java file are located in ${PROJECT_ROOT}/src/main/java/comp5111/assignment/, including `Assignment1.java`,  `StmtCounter.java` and `StmtInstrumenter.java`.
 
 To run the analysis, you need to run the instrument-run-test.sh script in ${PROJECT_ROOT}/scripts/.
-
-`PROJECT_ROOT=COMP5111-Spring2023-Student-Assignments-assignment1`
 
 ```
 cd ${PROJECT_ROOT}/scripts/
