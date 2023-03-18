@@ -16,7 +16,7 @@ cd ${PROJECT_ROOT}/scripts/
 ```
 
 ### Task 1.2: To learn how to use EclEmma for code coverage measurement.
-The screenshots are located in `${PROJECT_ROOT}/screenshots/` while the generated test suite are locateed in  `${PROJECT_ROOT}/src/test/randoop${i}` for i in {0..4}.
+The screenshots are located in `${PROJECT_ROOT}/screenshots/` while the generated test suite are located in  `${PROJECT_ROOT}/src/test/randoop${i}` for i in {0..4}.
 
 ### Task 2: Statement coverage measurement using Soot (40%)
 
